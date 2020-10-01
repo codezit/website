@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+      .navbar-toggler:focus, .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+    }
+    </style>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-light navbar-expand-md navigation-clean" style="background-color: #1A191C;">
+    <!-- <nav class="navbar fixed-top navbar-light navbar-expand-md navigation-clean" style="background-color: #1A191C;">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/logo.png" style="width: 200px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -24,6 +30,35 @@
                 </ul>
             </div>
         </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navigation-clean" style="background-color: #1A191C;">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" style="width: 200px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item" role="presentation">
+              <a class="nav-link text-white " href="#" style="font-family: Nunito, sans-serif;">Home</a>
+          </li>
+          <li class="nav-item" role="presentation">
+              <a class="nav-link text-white" href="#" style="font-family: Nunito, sans-serif;">Features</a>
+          </li>
+          <li class="nav-item" role="presentation">
+              <a class="nav-link text-white" href="#" style="font-family: Nunito, sans-serif;">Sponser</a>
+          </li>
+          <li class="nav-item" role="presentation">
+              <a class="nav-link text-white" href="#" style="font-family: Nunito, sans-serif;">Submit Task</a>
+          </li>
+          <li class="nav-item" role="presentation">
+              <a class="nav-link text-white" href="signin.html" style="font-family: Nunito, sans-serif;">SignIn</a>
+          </li>
+      </ul>
+      </div>
     </nav>
 
     <!-- Optional JavaScript -->
